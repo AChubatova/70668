@@ -29,7 +29,7 @@ project {
     description = "Contains all other projects"
 
     params {
-        param("a", "a")
+        param("a", "anew")
     }
 
     features {
@@ -45,7 +45,7 @@ project {
             param("secure:esPassword", "credentialsJSON:bf0192ae-6d79-42ad-90cb-2b8733a66f21")
             param("searchMode", "ELASTIC")
             param("esIndexName", "teamcity-adaec88b-a0b4-4388-b300-b94bf79930192105")
-            param("esUsername", "user1")
+            param("esUsername", "user1new")
         }
     }
 
